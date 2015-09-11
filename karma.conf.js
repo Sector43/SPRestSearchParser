@@ -15,8 +15,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-        'layouts/search/scripts/searchResult.js',
-        'layouts/search/scripts/searchResultParser.js',
+        'searchResult.js',
+        'searchResultParser.js',
       'jsTests/*.js'
     ],
 
@@ -35,7 +35,7 @@ module.exports = function(config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress', 'xml'],
+    reporters: ['progress'],
 
 
     // web server port

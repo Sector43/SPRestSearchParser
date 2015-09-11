@@ -8,7 +8,7 @@ var S43;
         SearchResultParser.prototype.parseResults = function (rawResults) {
             var retVal = [];
             var searchResults = rawResults.d.query.PrimaryQueryResult.RelevantResults.Table.Rows.results;
-            var sr = new SearchResult();
+            var sr = new S43.SearchResult();
             var targetPropNames = sr.getFields();
             var sourcePropNames = [];
             var oneResult;
@@ -48,7 +48,7 @@ var S43;
                     }
                 }
                 retVal.push(sr);
-                sr = new SearchResult();
+                sr = new S43.SearchResult();
             }
             return retVal;
         };
