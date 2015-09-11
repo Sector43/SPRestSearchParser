@@ -8,9 +8,5 @@
      "sourceMap": true,
      "target": "ES5",
      "watch":true
-   },
-   "files":[
-     "searchResult.ts",
-     "SearchResultParser.ts"
-   ]
+   }
 }

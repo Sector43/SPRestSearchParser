@@ -1,4 +1,4 @@
-﻿//https://github.com/Sector43/SPSearchParser
+﻿//https://github.com/Sector43/SPRESTSearchParser
 
 module S43 {
 
@@ -22,8 +22,8 @@ module S43 {
         isDocument: boolean = false;
         lastModified: string = "";
         fileType: string = "";
-        isContainer: boolean = false;
-
+        isContainer: boolean = false; 
+        
         getFields() {
             var retVal:string[] = [];
             for (var oneProp in this) {

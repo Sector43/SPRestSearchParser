@@ -1,4 +1,4 @@
-﻿//https://github.com/Sector43/SPSearchParser
+﻿//https://github.com/Sector43/SPRESTSearchParser
 var S43;
 (function (S43) {
     "use strict";
