@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
-     "module": "commonjs",
+     "module": "amd",
      "noImplicitAny": false,         
      "removeComments": true,
      "preserveConstEnums": true,
      "declaration": true,
-     "outDir": "/",
      "sourceMap": true,
+     "target": "ES5",
      "watch":true
-   }, 
-   "files": [
-      "*.ts"
+   },
+   "files":[
+     "searchResult.ts",
+     "SearchResultParser.ts"
    ]
 }

@@ -1,6 +1,8 @@
+﻿//https://github.com/Sector43/SPSearchParser
 var S43;
 (function (S43) {
     "use strict";
+
     var SearchResult = (function () {
         function SearchResult() {
             this.rank = -1;

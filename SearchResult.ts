@@ -2,7 +2,7 @@
 
 module S43 {
 
-    "use strict"; 
+    "use strict";  
 
     export class SearchResult {
         rank: number = -1;
