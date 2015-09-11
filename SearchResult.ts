@@ -22,7 +22,7 @@ module S43 {
         isDocument: boolean = false;
         lastModified: string = "";
         fileType: string = "";
-        isContainer: boolean = false; 
+        isContainer: boolean = false;  
         
         getFields() {
             var retVal:string[] = [];

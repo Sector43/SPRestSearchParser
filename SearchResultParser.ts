@@ -1,5 +1,7 @@
 ﻿//https://github.com/Sector43/SPSearchParser
 
+/// <reference path="SearchResult.ts"/>
+
 module S43 {
 
     "use strict";
@@ -11,14 +13,14 @@ module S43 {
         parseResults(rawResults: any): SearchResult[]{
             var retVal: any[] = [];
             var searchResults = rawResults.d.query.PrimaryQueryResult.RelevantResults.Table.Rows.results;
-            var sr: SearchResult = new SearchResult();
+            var sr: S43.SearchResult = new S43.SearchResult();
             var targetPropNames: string[] = sr.getFields();
             var sourcePropNames: string[] = [];
             var oneResult: any;
             var sourcePropName: string;
             var sourcePropValue: any;
             var propIdx: number;
-            var targetPropName: string;
+            var targetPropName: string; 
             var oneProp: any;
 
             //get source property names (targetPropertyName with initial capital letter)
@@ -63,7 +65,7 @@ module S43 {
                 retVal.push(sr);
 
 
-                sr = new SearchResult();
+                sr = new S43.SearchResult();
             }
             return retVal;
         }

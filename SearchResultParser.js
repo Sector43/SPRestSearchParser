@@ -1,4 +1,5 @@
 ﻿//https://github.com/Sector43/SPSearchParser
+/// <reference path="SearchResult.ts"/>
 var S43;
 (function (S43) {
     "use strict";
